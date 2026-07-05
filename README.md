@@ -1,1 +1,1 @@
-## This is a flask app 
+## This is a flask-based application 
