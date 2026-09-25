@@ -22,6 +22,9 @@ jobs:
       - name: Run tests
         run: |
           pytest
-        
+      - name: Set up python
+        uses: actions/setup-python@v2
+        with:
+          python-verison: ${{ matrix.python-version }}
 
       
